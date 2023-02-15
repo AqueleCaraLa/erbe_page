@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!--=============== Meta ===============-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--=============== Icons Bootstrap ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+        <!--=============== CSS Projeto ===============-->
+        <link rel="stylesheet" href="/Assets/CSS/reset.css">
+        <link rel="stylesheet" href="./Assets/CSS/style.css">
+        <link rel="stylesheet" href="./Assets/CSS/media.css">
+
+        
+        <!--=============== JavaScript ===============-->
+        <script defer src="./Assets/JS/hide.js"></script>
+        <script defer src="./Assets/JS/change.js"></script>
+        <script defer src="./Assets/JS/navbar.js"></script>
+        <script defer src="./Assets/JS/scroll.js"></script>
+
+        <!--=============== Title/Icon ===============-->
+        <title> Erbe Construtora I </title>
+        <link rel="shortcut icon" href="./Assets/IMG/ERBE_LOGO.svg" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <!--=============== Header ===============-->
+
+        <header id="header">
+            <a href="#" id="logo"><img src="./Assets/IMG/ERBE_CONSTRUTORA-LOGO.svg" alt=""></a>
+            <!-- <a href="#" id="logo_two" class="scrolled"><img src="./Assets/IMG/ERBE_LOGO.svg" alt=""></a> -->
+            <nav id="nav">
+                <button id="btn-mobile">
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu">
+                    <li><a href="#sobre"> SOBRE </a></li>
+                    <li><a href="#servicos"> SERVIÇOS</a></li>
+                    <li><a href="#portifolio"> PORTIFÓLIO </a></li>
+                    <li><a href="#contato"> CONTATO </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--=============== Main ===============-->
+
+        <main>
+            <!-- ===== MARCA EMPRESA ===== -->
+            <section class="marca__empresa">
+                <div>
+                    <p> 
+                        CRIANDO
+                        LEGADOS
+                        COM
+                        CONFIANÇA
+                    </p>
+                </div>
+            </section>
+            
+            <section class="caixa">
+                <div class="container sobre__container">
+                    <img src="./Assets/IMG/ERBE_LOGO_TRANSPARENTE.svg" alt="Logotipo Transparente" class="logo__transp">
+                    
+                    <div class="text">
+                        <h1 id="sobre"> SOBRE </h1>
+                        <p> 
+                            A erbe tem em sua visão a qualidade e 
+                            desenvolvimento da construção, buscando a
+                            melhoria contínua e inovação em cada 
+                            empreendimento.
+                        </p>
+
+                        <p> 
+                            A empresa surge com a missão de inovar suas
+                            relações com o cliente, cuidando de seu
+                            legado. Identificando as necessidade de cada
+                            projeto. E alcançando suas expectativas. 
+                        </p>
+
+                        <p> 
+                            Contando com uma equipe técnica capacitada
+                            para atender as demandas do cliente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text servicos__container">
+                    <h1 id="servicos"> SERVIÇOS </h1>
+                    <p> Escolha seu nível de projeto: </p>
+                </div>
+
+                <div class="container cards_serv">
+                    <!--===== CARD 1 =====-->
+                    <div class="card_s card_1">
+                        <!-- Card Header -->
+                        <div class="card_header">
+                            <img src="./Assets/IMG/worker_w.png" class="card_img">
+                        </div>
+
+                        <!-- Card Text -->
+                        <div class="texto">
+                            <h2 class="text-main">Gerenciamento de Obras</h2>
+                            <p class="desc">Com uma equipe técnica para realizar visando a eficiência no canteiro de obras, sempre prevendo cada demanda de seu empreendimento.</p>
+                        </div>
+                    </div>
+
+                    <!--===== CARD 2 =====-->
+                    <div class="card_s card_2">
+                        <!-- Card Header -->
+                        <div class="card_header">
+                            <img src="./Assets/IMG/project_w.png" class="card_img">
+                        </div>
+
+                        <!-- Card Text -->
+                        <div class="texto">
+                            <h2 class="text-main">Elaboração de Projetos</h2>
+                            <p class="desc">Cada projeto é elabora para atender todas as demandas da obra. Tendo como prioridade o compatibilização com as demais disciplinas. Evitando conflitos durante a execução do serviço.</p>
+                        </div>
+                    </div>
+
+                    <!--===== CARD 3 =====-->
+                    <div class="card_s card_3">
+                        <!-- Card Header -->
+                        <div class="card_header">
+                            <img src="./Assets/IMG/engineering_w.png" class="card_img">
+                        </div>
+
+                        <!-- Card Text -->
+                        <div class="texto">
+                            <h2 class="text-main">Reformas e Construção</h2>
+                            <p class="desc">Nosso departamento de obras está equipados para cuidar de pequenas reformas até grandes construções. Atuando em todos os setores da construção: <br>- Residêncial <br>- Comercial <br>- Industrial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text portifolio__container">
+                    <h1 id="portifolio" class="padd"> PORTIFÓLIO </h1>
+                    <p class="padd"> Veja nossos serviços ja feitos: </p>
+                </div>
+
+                <div class="container portifolio">
+                    <div class="complete_div card item current-item">
+                        <a href="#port_one" id="port_card_one">
+                            <img src="./Assets/IMG/Prestes/dentro_depois.jpg" alt="dentro finalizado" class="port_img">
+                        </a>
+                    </div>
+        
+                    <div class="complete_div card item">
+                        <a href="#port_two" id="port_card_two">
+                            <img src="./Assets/IMG/Prestes/dentro_durante.jpg" alt="dentro durante" class="port_img">
+                        </a>
+                    </div>
+        
+                    <div class="complete_div card item">
+                        <a href="#port_three" id="port_card_three">
+                            <img src="./Assets/IMG/Prestes/fachada_antes.jpg" alt="fachada_durante" class="port_img">
+                        </a>
+                    </div>
+                </div>
+
+                <section class="hidden-port">
+                    <div class="container" id="port_one">
+                        <div class="text div_one_text">
+                            <h1 id="sobre"> TÍTULO 1 </h1>
+                            <p> A erbe tem em sua visão a qualidade e
+                                desenvolvimento da construção, buscando a 
+                                melhoria contínua e inovação em cada 
+                                empreendimento.
+                            </p>
+                        </div>
+
+                        <div class="port_img">
+                            <div class="port_one_imgs">
+                                <img class="port_hide_img div_img" id="one_img_one" src="./Assets/IMG/Prestes/fachada_antes.jpg" alt="">
+                                <img class="port_hide_img div_img" id="one_img_two" src="./Assets/IMG/Prestes/dentro_durante.jpg" alt="">
+                                <img class="port_hide_img div_img" id="one_img_three" src="./Assets/IMG/Prestes/dentro_depois.jpg" alt="">
+                                <img class="port_hide_img div_img" id="one_img_four" src="./Assets/IMG/Prestes/fachada_durante.jpg" alt="">
+                            </div>
+
+                            <div class="port_div_img">
+                                <a href="#one_img_one" id="one_small_one" class="small_img selected"> <img src="./Assets/IMG/Prestes/fachada_antes.jpg" alt=""> </a>
+                                <a href="#one_img_two" id="one_small_two" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/dentro_durante.jpg" alt=""></a>
+                                <a href="#one_img_three" id="one_small_three" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/dentro_depois.jpg" alt=""> </a>
+                                <a href="#one_img_four" id="one_small_four" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/fachada_durante.jpg" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container" id="port_two">
+                        <div class="text div_one_text">
+                            <h1 id="sobre"> TÍTULO 2 </h1>
+                            <p> A erbe tem em sua visão a qualidade e
+                                desenvolvimento da construção, buscando a 
+                                melhoria contínua e inovação em cada 
+                                empreendimento.
+                            </p>
+                        </div>
+
+                        <div class="port_img">
+                            <div class="port_two_imgs">
+                                <img class="port_hide_img div_img" id="two_img_one" src="./Assets/IMG/Prestes/fachada_antes.jpg" alt="">
+                                <img class="port_hide_img div_img" id="two_img_two" src="./Assets/IMG/Prestes/dentro_durante.jpg" alt="">
+                                <img class="port_hide_img div_img" id="two_img_three" src="./Assets/IMG/Prestes/dentro_depois.jpg" alt="">
+                                <img class="port_hide_img div_img" id="two_img_four" src="./Assets/IMG/Prestes/fachada_durante.jpg" alt="">
+                            </div>
+
+                            <div class="port_div_img">
+                                <a href="#two_img_one" id="two_small_one" class="small_img selected"> <img src="./Assets/IMG/Prestes/fachada_antes.jpg" alt=""> </a>
+                                <a href="#two_img_two" id="two_small_two" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/dentro_durante.jpg" alt=""></a>
+                                <a href="#two_img_three" id="two_small_three" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/dentro_depois.jpg" alt=""> </a>
+                                <a href="#two_img_four" id="two_small_four" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/fachada_durante.jpg" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container" id="port_three">
+                        <div class="text div_one_text">
+                            <h1 id="sobre"> TÍTULO 3 </h1>
+                            <p> A erbe tem em sua visão a qualidade e
+                                desenvolvimento da construção, buscando a 
+                                melhoria contínua e inovação em cada 
+                                empreendimento.
+                            </p>
+                        </div>
+
+                        <div class="port_img">
+                            <div class="port_three_imgs">
+                                <img class="port_hide_img div_img" id="three_img_one" src="./Assets/IMG/Prestes/fachada_antes.jpg" alt="">
+                                <img class="port_hide_img div_img" id="three_img_two" src="./Assets/IMG/Prestes/dentro_durante.jpg" alt="">
+                                <img class="port_hide_img div_img" id="three_img_three" src="./Assets/IMG/Prestes/dentro_depois.jpg" alt="">
+                                <img class="port_hide_img div_img" id="three_img_four" src="./Assets/IMG/Prestes/fachada_durante.jpg" alt="">
+                            </div>
+
+                            <div class="port_div_img">
+                                <a href="#three_img_one" id="three_small_one" class="small_img selected"> <img src="./Assets/IMG/Prestes/fachada_antes.jpg" alt=""> </a>
+                                <a href="#three_img_two" id="three_small_two" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/dentro_durante.jpg" alt=""></a>
+                                <a href="#three_img_three" id="three_small_three" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/dentro_depois.jpg" alt=""> </a>
+                                <a href="#three_img_four" id="three_small_four" class="small_img hover_img"> <img src="./Assets/IMG/Prestes/fachada_durante.jpg" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+        </main>
+
+        <footer id="contato">
+            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5543998139521" target="_blank"><i class="bi bi-whatsapp text-light"></i></a>
+    
+            <a href="https://www.instagram.com/erbeconstrutora/" target="_blank"><i class="bi bi-instagram text-light"></i></a>
+    
+            <a href="mailto:igorrlima84@gmail.com" target="_blank"><i class="bi bi-envelope text-light"></i></a>
+        </footer>
+    </body>
+</html>
+
