@@ -9,7 +9,7 @@
         font-size: 4vw;
     }
     .text p {
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
 
     .card_s {
@@ -52,8 +52,9 @@
     #sobre, #servicos, #portifolio {
         font-size: 4vw;
     }
+    
     .text p {
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
 
     .card_s {
@@ -90,7 +91,7 @@
 
 @media (min-width: 1025px) and (max-width: 1440px) {
     .text p {
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
 
     .card_s {
@@ -141,16 +142,12 @@
         font-size: 2.5rem;
     }
 
-    #servicos, #portifolio {
-        margin-top: -15px;
-    }
-
     .container {
         height: auto;
     }
 
     .text p {
-        font-size: 2.1vw;
+        font-size: 2vw;
     }
 
     .card_s {
@@ -212,10 +209,6 @@
         font-size: 2em;
     }
 
-    #servicos, #portifolio {
-        margin-top: 0px;
-    }
-
     .servicos__container, .portifolio__container {
         padding-left: 0px;
         margin: 0 2vw;
@@ -226,7 +219,7 @@
     }
 
     .text p {
-        font-size: 2.5vw;
+        font-size: 2.3vw;
     }
 
     .card_s {
@@ -289,10 +282,6 @@
         padding-bottom: 15px;
     }
 
-    #servicos, #portifolio {
-        margin-top: 0px;
-    }
-
     .servicos__container, .portifolio__container {
         padding-left: 0px;
         margin: 0 2vw;
@@ -339,7 +328,7 @@
     }
 }
 
-/* ===== RESPONSIVE MOBILE M ===== */
+/* ===== RESPONSIVE MOBILE M e S ===== */
 
 @media (max-width: 375px) {
     .marca__empresa {
@@ -367,10 +356,6 @@
         padding-bottom: 15px;
     }
 
-    #servicos, #portifolio {
-        margin-top: 0px;
-    }
-
     .servicos__container, .portifolio__container {
         padding-left: 0px;
         margin: 0 2vw;
@@ -382,7 +367,7 @@
     }
 
     .text p {
-        font-size: 3.1vw;
+        font-size: 2.9vw;
     }
 
     .card_s {
@@ -416,6 +401,4 @@
         height: 100%;
     }
 }
-
-/* ===== RESPONSIVE MOBILE S ===== */
 
